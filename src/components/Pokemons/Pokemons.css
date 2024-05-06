@@ -20,5 +20,6 @@
 }
 
 .pokemons:hover {
-    background-color: #8b8a90;
+    /* background-color: #8b8a90; */
+    background-color: beige;
 }
