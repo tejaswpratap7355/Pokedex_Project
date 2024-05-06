@@ -1,10 +1,14 @@
 import "./PokemonList.css";
 import Pokemon from "../Pokemons/Pokemons";
 import usePokemonList from "../../hooks/usePokemonList";
+import { useEffect } from "react";
 
 function PokedexList() {
 
   const [pokemonListState, setPokemonListState] = usePokemonList(false);
+  useEffect(() => {
+    console.log('render');
+  })
 
   return (
     <div className="pokemon-list-wrapper">
